@@ -135,7 +135,7 @@ class RemoteFeedLoaderTests: XCTestCase {
             XCTFail("Expected success feed result, got \(error) instead")
             
         default:
-            XCTFail("Expected success feed result, got no result instead")
+            XCTFail("Expected success  feed result, got no result instead")
         }
     }
 
