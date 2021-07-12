@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0981AF269CA5CA007A8ADD /* EssentialFeedAPIEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA13380B2688437C0093F367 /* EssentialFeedAPIEndToEndTests.swift */; };
 		FA1337DD268837270093F367 /* EssentialFeedClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1337D3268837270093F367 /* EssentialFeedClone.framework */; };
 		FA1337E2268837270093F367 /* EssentialFeedCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1337E1268837270093F367 /* EssentialFeedCloneTests.swift */; };
 		FA1337E4268837270093F367 /* EssentialFeedClone.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1337D6268837270093F367 /* EssentialFeedClone.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -380,6 +381,7 @@
 				FA1337F6268841C60093F367 /* FeedItem.swift in Sources */,
 				FA1337F9268841C60093F367 /* HTTPClient.swift in Sources */,
 				FA1337F5268841C60093F367 /* FeedLoader.swift in Sources */,
+				FA0981AF269CA5CA007A8ADD /* EssentialFeedAPIEndToEndTests.swift in Sources */,
 				FA1337F7268841C60093F367 /* URLSessionHTTPClient.swift in Sources */,
 				FA1337FA268841C60093F367 /* RemoteFeedLoader.swift in Sources */,
 				FA1337F8268841C60093F367 /* FeedItemsMapper.swift in Sources */,
