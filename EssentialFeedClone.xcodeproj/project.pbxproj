@@ -150,6 +150,7 @@
 		FA1337E0268837270093F367 /* EssentialFeedCloneTests */ = {
 			isa = PBXGroup;
 			children = (
+				FA1337FD268842040093F367 /* Helper */,
 				FA1C6114269F400400EC47B7 /* Feed Cache */,
 				FA133803268842130093F367 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				FA1337FB268842040093F367 /* Feed  API */,
@@ -183,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				FA1337FC268842040093F367 /* EssentialFeedTests.swift */,
-				FA1337FD268842040093F367 /* Helper */,
 				FA1337FF268842040093F367 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Feed  API";
