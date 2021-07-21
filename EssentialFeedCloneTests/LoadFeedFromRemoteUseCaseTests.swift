@@ -8,7 +8,7 @@
 import XCTest
 @testable import EssentialFeedClone
 
-class RemoteFeedLoaderTests: XCTestCase {
+class LoadFeedFromRemoteUseCaseTests: XCTestCase {
 
     func test_init_doesNotRequestDataFromURL() {
         let (_, client) = makeSUT()
@@ -135,7 +135,7 @@ class RemoteFeedLoaderTests: XCTestCase {
             XCTFail("Expected success feed result, got \(error) instead")
             
         default:
-            XCTFail("Expected success  feed result, got no result instead")
+            XCTFail("Expected success feed result, got no result instead")
         }
     }
 
